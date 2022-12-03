@@ -1,0 +1,15 @@
+.main{
+    width: 1000px;
+    height:600px; 
+    background-color:skyblue;
+    font-size:200px;
+    color:black;
+    text-align: center;
+    font-family: Verdana;
+}
+.main:hover{
+background-color:sandybrown;
+color: chartreuse;
+width: 500px;
+height: 700px;
+}
