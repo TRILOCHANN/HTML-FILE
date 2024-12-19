@@ -1,0 +1,59 @@
+ul{
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+    background-color: #333;
+    list-style-type: none;
+}
+li{
+    float: left;
+    margin-left: 210px;
+}
+li a{
+    color: white;
+    display:inline-block;
+    text-decoration:none;
+    padding: 10px;
+    margin: 7px 7px;
+    text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+li a:hover:not(.active){
+    background-color: #111;
+}
+.active{
+    background-color: #04AA6D;
+}
+
+
+.Log_in{
+    float: left;
+    border: 2px solid black;
+    margin-top:200px;
+    margin-left:510px;
+    padding: 10px;
+    border-radius: 5px;
+    position: absolute;
+    text-decoration: none;
+}
+.Sign_in{   
+    margin-top: 200px;
+    margin-left: 620px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid black;
+    position: absolute  ;
+
+}
+
+form{
+    border:2px solid black;
+    margin-top:250px;
+    margin-left:500px; 
+    padding: 20px;
+    border-radius:5px;
+    color: black;
+    position:absolute;
+    text-decoration: none; 
+}
